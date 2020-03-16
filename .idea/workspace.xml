@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -38,7 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,6 +126,7 @@
       <workItem from="1581852558000" duration="14895000" />
       <workItem from="1582489804321" duration="50000" />
       <workItem from="1583333154274" duration="1663000" />
+      <workItem from="1584384512136" duration="42000" />
     </task>
     <servers />
   </component>
@@ -146,6 +150,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581858762273" />
+    <state x="1196" y="236" key="CommitChangelistDialog2" timestamp="1584384579538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1196" y="236" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584384579538" />
     <state x="422" y="100" key="FileChooserDialogImpl" timestamp="1581865432079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -186,15 +194,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1583333364537">
+    <state x="440" y="97" key="SettingsEditor" timestamp="1584384554384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583333364537" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1583333155274">
+    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584384554384" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1584384575893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582489803750" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583333155274" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584384575893" />
     <state width="300" height="120" key="javadoc.popup.new" timestamp="1581868634597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
