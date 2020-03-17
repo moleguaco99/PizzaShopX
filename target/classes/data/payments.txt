@@ -9,5 +9,12 @@
 1,Card,12.5
 5,Cash,42.0
 1,Card,74.0
-6,Cash,36.0
-5,Cash,23.0
+2,Card,23.0
+3,Card,16.0
+3,Cash,82.5
+1,Cash,16.0
+1,Cash,23.0
+2,Card,7.5
+2,Cash,7.5
+2,Card,7.5
+1,Card,11.5
