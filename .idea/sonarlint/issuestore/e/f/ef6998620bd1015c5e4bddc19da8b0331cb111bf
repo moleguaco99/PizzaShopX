@@ -1,18 +1,19 @@
 
 >
-java:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-P
-java:S1128":Remove this unused import 'pizzashop.model.MenuDataModel'.(ƒãá
+java:S1148#"#Use a logger to log this exception.(ï¿½ï¿½Ô…ï¿½ï¿½ï¿½ï¿½ï¿½
+b
+java:S2095C"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ï¿½ï¿½ï¿½ï¿½
 Z
-java:S2147$"DCombine this catch with the one at line 34, which has the same body.(ï­£Ä
+java:S2147$"DCombine this catch with the one at line 34, which has the same body.(ï­£ï¿½
+P
+java:S1128":Remove this unused import 'pizzashop.model.MenuDataModel'.(ï¿½ï¿½ï¿½ï¿½
+>
+java:S1148%"#Use a logger to log this exception.(ï¿½ï¿½Ô…ï¿½ï¿½ï¿½ï¿½ï¿½
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ñ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+>
+java:S1148K"#Use a logger to log this exception.(ï¿½ï¿½Ô…ï¿½ï¿½ï¿½ï¿½ï¿½
 Y
-java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ï¿½Ü€ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ñ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 b
-java:S2095C"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ý
->
-java:S1148K"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-b
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦
-S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ
->
-java:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ï¿½Èˆï¿½
