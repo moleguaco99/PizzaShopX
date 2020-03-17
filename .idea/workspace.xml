@@ -2,60 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d710b77068e128f035d497fc3878605971f031b5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef6998620bd1015c5e4bddc19da8b0331cb111bf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PizzaShop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/RequirementsPizzaShop_v1.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/gui/PaymentAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/service/WaiterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/KitchenGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/MainGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/controller/OrdersGUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/KitchenGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/gui/OrdersGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/model/PaymentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PaymentAlert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/service/PizzaService.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="PizzaShop" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,160 +78,8 @@
     <option name="height" value="985" />
   </component>
   <component name="ProjectId" id="1XnhPHuHkT7dDVekFl0PHbtY2Gs" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-              <item name="extractors" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -252,6 +87,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -262,7 +98,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="sonarlint" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -361,11 +197,10 @@
       <workItem from="1583333154274" duration="1663000" />
       <workItem from="1584384512136" duration="42000" />
       <workItem from="1584384568826" duration="129000" />
-      <workItem from="1584385211983" duration="4343000" />
-      <workItem from="1584393701337" duration="1038000" />
-      <workItem from="1584436858616" duration="492000" />
-      <workItem from="1584437383683" duration="629000" />
-      <workItem from="1584460856246" duration="3629000" />
+      <workItem from="1584384940656" duration="268000" />
+      <workItem from="1584385887705" duration="2446000" />
+      <workItem from="1584435443437" duration="4044000" />
+      <workItem from="1584461326131" duration="3595000" />
     </task>
     <servers />
   </component>
@@ -420,11 +255,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="271" y="0" key="#PizzaShop_[exec:java]" timestamp="1581688049207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="#PizzaShop_[exec:java]/0.0.1280.680@0.0.1280.680" timestamp="1581688049207" />
+    <state x="288" y="174" key="#Project_Settings" timestamp="1584438770125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="288" y="174" key="#Project_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1584438770125" />
     <state x="447" y="35" key="#com.intellij.ide.util.MemberChooser" timestamp="1581861630816">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -445,26 +287,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581865432079" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1583334986628">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584464984292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1583334986628">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584464984292" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584464984292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1583334986628">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584464984292" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584464984292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1583334986628">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584464984292" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584464984292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584464984292" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583334986628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -481,15 +323,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1584384554384">
+    <state x="68" y="167" key="SettingsEditor" timestamp="1584385173525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584384554384" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1584384575893">
+    <state x="68" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584385173525" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1584461330690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582489803750" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584384575893" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584461330690" />
     <state width="300" height="120" key="javadoc.popup.new" timestamp="1581868634597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -498,122 +340,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="75" y="50" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1581688763312" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/PaymentType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PizzaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/menu.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/payments.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentAlert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <state x="38" y="291" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard" timestamp="1584385129366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="38" y="291" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584385129366" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
