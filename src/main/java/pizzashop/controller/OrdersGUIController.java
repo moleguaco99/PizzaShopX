@@ -65,13 +65,13 @@ public class OrdersGUIController {
     private Calendar now = Calendar.getInstance();
     private static double totalAmount;
 
-    public void setService(WaiterService service, int tableNumber) {
+    public void setService(WaiterService service, int tableNumber) throws Exception {
         this.service = service;
         this.tableNumber = tableNumber;
         initData();
     }
 
-    private void initData() {
+    private void initData() throws Exception {
         ObservableList<MenuDataModel> menuData;
         menuData = FXCollections.observableArrayList(service.getMenuData());
         menuData.setAll(service.getMenuData());
@@ -104,7 +104,11 @@ public class OrdersGUIController {
             logger.info("Total: " + getTotalAmount());
             logger.info("--------------------------");
             PaymentAlert pay = new PaymentAlert(service);
-            pay.showPaymentAlert(tableNumber, getTotalAmount());
+            try {
+                pay.showPaymentAlert(tableNumber, getTotalAmount());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         });
     }
 

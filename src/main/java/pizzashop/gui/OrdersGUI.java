@@ -38,6 +38,8 @@ public class OrdersGUI {
 
         } catch (IOException e) {
             logger.trace(e.getMessage(), e);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         Stage stage = new Stage();

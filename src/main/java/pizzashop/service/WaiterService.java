@@ -26,7 +26,11 @@ public class WaiterService {
         return payRepo.getAll();
     }
 
-    public void addPayment(int table, PaymentType type, double amount) {
+    public void addPayment(int table, PaymentType type, double amount) throws Exception{
+        if(table < 1 || table > 8)
+            throw new Exception("Wrong number of tables");
+        if(amount < 0)
+            throw new Exception("Negative amount!");
         Payment payment = new Payment(table, type, amount);
         payRepo.add(payment);
     }

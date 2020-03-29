@@ -11,7 +11,6 @@ import java.util.Optional;
 
 public class PaymentAlert implements PaymentOperation {
 
-    
     Logger logger = Logger.getLogger(PaymentAlert.class);
     private String dottedLines = "--------------------------";
   
@@ -42,7 +41,7 @@ public class PaymentAlert implements PaymentOperation {
         logger.info("Payment choice needed...");
         logger.info(dottedLines);
     }
-      public void showPaymentAlert(int tableNumber, double totalAmount ) {
+      public void showPaymentAlert(int tableNumber, double totalAmount ) throws Exception{
         Alert paymentAlert = new Alert(Alert.AlertType.CONFIRMATION);
         paymentAlert.setTitle("Payment for Table "+tableNumber);
         paymentAlert.setHeaderText("Total amount: " + totalAmount);
