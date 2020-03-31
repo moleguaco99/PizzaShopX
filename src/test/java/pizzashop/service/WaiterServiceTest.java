@@ -1,9 +1,6 @@
 package pizzashop.service;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import pizzashop.model.PaymentType;
@@ -56,7 +53,7 @@ class WaiterServiceTest {
         }
     }
 
-    @DisplayName("ECP_invalid01")
+    @DisplayName("ECP_invalid01 - amount")
     @ParameterizedTest
     @ValueSource(doubles = {-5, -6, -8})
     public void test_F01_ECP_invalid01(double amount){
@@ -65,7 +62,7 @@ class WaiterServiceTest {
         assertTrue(numberOfPayments == waiterService.getPayments().size());
     }
 
-    @DisplayName("ECP_invalid01")
+    @DisplayName("ECP_invalid02 - table")
     @ParameterizedTest
     @ValueSource(ints = {9, 10, 11})
     public void test_F01_ECP_invalid02(int table){
@@ -75,7 +72,7 @@ class WaiterServiceTest {
     }
 
     @Test
-    @DisplayName("BVA_valid01")
+    @DisplayName("BVA_valid01 - amount")
     public void test_F01_BVA_valid01(){
         int numberOfPayments = waiterService.getPayments().size();
         try{
@@ -87,8 +84,7 @@ class WaiterServiceTest {
         }
     }
 
-
-    @DisplayName("BVA_valid02")
+    @DisplayName("BVA_valid02 - table")
     @ParameterizedTest
     @ValueSource(ints = {1, 8})
     public void test_F01_BVA_valid02(int table){
@@ -103,19 +99,28 @@ class WaiterServiceTest {
     }
 
     @Test
-    @DisplayName("BVA_invalid01")
+    @DisplayName("BVA_invalid01 - amount")
     public void test_F01_BVA_invalid01(){
         int numberOfPayments = waiterService.getPayments().size();
         assertThrows(Exception.class, ()->waiterService.addPayment(3, PaymentType.CARD, -0.1d));
         assertTrue(numberOfPayments == waiterService.getPayments().size());
     }
 
-    @DisplayName("BVA_invalid02")
+    @DisplayName("BVA_invalid02 - table")
     @ParameterizedTest
     @ValueSource(ints = {0, 9})
     public void test_F01_BVA_invalid02(int table){
         int numberOfPayments = waiterService.getPayments().size();
         assertThrows(Exception.class, ()->waiterService.addPayment(table, PaymentType.CARD, 0d));
+        assertTrue(numberOfPayments == waiterService.getPayments().size());
+    }
+
+    @Disabled
+    @Test
+    @Tag("disabledTest")
+    public void test_F01_BVA_invalidDisabled(){
+        int numberOfPayments = waiterService.getPayments().size();
+        assertThrows(Exception.class, ()->waiterService.addPayment(9, PaymentType.CARD, -0.1d));
         assertTrue(numberOfPayments == waiterService.getPayments().size());
     }
 
