@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +227,7 @@
       <workItem from="1585489621755" duration="5183000" />
       <workItem from="1585496064883" duration="568000" />
       <workItem from="1585661716204" duration="2396000" />
+      <workItem from="1585724125082" duration="1443000" />
     </task>
     <servers />
   </component>
@@ -312,11 +312,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="68" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584385173525" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1585661722533">
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1585724125446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582489803750" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585661722533" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585724125446" />
     <state x="400" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585493833324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
