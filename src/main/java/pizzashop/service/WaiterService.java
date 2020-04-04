@@ -35,10 +35,13 @@ public class WaiterService {
         payRepo.add(payment);
     }
 
-    public double getTotalAmount(PaymentType type) {
+    public double getTotalAmount(PaymentType type) throws ServiceException {
         double total = 0.0f;
         List<Payment> l = getPayments();
-        if (l == null || l.isEmpty()) return total;
+        if(type == null)
+            throw new ServiceException("Payment type is null");
+        if (l == null || l.isEmpty())
+            return total;
         for (Payment p : l) {
             if (p.getType().equals(type))
                 total += p.getAmount();

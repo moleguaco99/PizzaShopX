@@ -14,6 +14,7 @@ import pizzashop.gui.KitchenGUI;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.service.ServiceException;
 import pizzashop.service.WaiterService;
 
 import java.util.Optional;
@@ -41,8 +42,16 @@ public class Main extends Application {
             Optional<ButtonType> result = exitAlert.showAndWait();
             if (result.isPresent()) {
                 if (result.get() == ButtonType.YES) {
-                    logger.info("Incasari cash: " + service.getTotalAmount(PaymentType.CASH));
-                    logger.info("Incasari card: " + service.getTotalAmount(PaymentType.CARD));
+                    try {
+                        logger.info("Incasari cash: " + service.getTotalAmount(PaymentType.CASH));
+                    } catch (ServiceException e) {
+                        e.printStackTrace();
+                    }
+                    try {
+                        logger.info("Incasari card: " + service.getTotalAmount(PaymentType.CARD));
+                    } catch (ServiceException e) {
+                        e.printStackTrace();
+                    }
                     primaryStage.close();
                 }
                 // consume event
