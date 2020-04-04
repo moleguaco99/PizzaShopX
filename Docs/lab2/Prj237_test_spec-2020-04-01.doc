@@ -12,32 +12,48 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj237<br>Test Suite: Prj237 - tiir2410_BBT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 29/03/2020</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 01/04/2020</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="doclevel" >Scope</h1>
 <div class="txtlevel"><p>
 	Testing project for group 237</p></div>
  <br/><h1 class='doclevel'>Test Suite : tiir2410_BBT</h1>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj237-18: TC_F01_ECP_valid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Se testeaza ca amount-ul sa fie valid, tip double mai mare decat 0.</p>
+<p>
+	Se testeaza ca table sa fie valid, numar intreg intre 1 si 8 inclusiv.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
 </div>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj237-19: TC_F01_ECP_invalid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	S-a testat situatia in care amount este &lt; 0, iar table = 0 or table &gt;9&nbsp;</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
 </div>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj237-20: TC_F01_BVA_valid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Testare ca amount sa fie de tip double, strict mai mare decat 0.</p>
+<p>
+	Testare ca table sa fie intreg intre 1 si 8 inclusiv.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
 </div>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj237-21: TC_F01_BVA_invalid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Testare cazul in care amount si table sunt invalide: amount &lt;0, table &lt;=0, table &gt;=9</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
