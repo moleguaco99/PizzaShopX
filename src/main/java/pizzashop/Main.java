@@ -43,12 +43,12 @@ public class Main extends Application {
             if (result.isPresent()) {
                 if (result.get() == ButtonType.YES) {
                     try {
-                        logger.info("Incasari cash: " + service.getTotalAmount(PaymentType.CASH));
+                        logger.info("Incasari cash: " + service.getTotalAmount(PaymentType.CASH, payRepo.getAll()));
                     } catch (ServiceException e) {
                         e.printStackTrace();
                     }
                     try {
-                        logger.info("Incasari card: " + service.getTotalAmount(PaymentType.CARD));
+                        logger.info("Incasari card: " + service.getTotalAmount(PaymentType.CARD, payRepo.getAll()));
                     } catch (ServiceException e) {
                         e.printStackTrace();
                     }
