@@ -20,28 +20,31 @@ class WaiterServiceWBTest {
     private static WaiterService waiterService;
 
     @BeforeAll
-    public static void setUp(){
+    public static void setUp() {
         MenuRepository menuRepository = new MenuRepository();
         PaymentRepository paymentRepository = new PaymentRepository();
         waiterService = new WaiterService(menuRepository, paymentRepository);
     }
 
     @AfterAll
-    public static void tearDown(){
+    public static void tearDown() {
         waiterService = null;
     }
 
     @DisplayName("WBT_valid - paymentType and payment list are valid")
     @ParameterizedTest
     @EnumSource(value = PaymentType.class, names = "CASH", mode = EnumSource.Mode.MATCH_ANY)
-    public void test_F02_parameters_valid(PaymentType type){
+    public void test_F02_parameters_valid(PaymentType type) {
 
+        // setup
         List<Payment> l = waiterService.getPayments();
 
-        try{
-            double total = waiterService.getTotalAmount(type,l);
+        try {
+            //act
+            double total = waiterService.getTotalAmount(type, l);
+            //assert
             assertTrue(total > 0);
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             fail();
         }
@@ -50,18 +53,21 @@ class WaiterServiceWBTest {
     @DisplayName("WBT_valid - paymentType and payment list are valid")
     @ParameterizedTest
     @EnumSource(value = PaymentType.class, names = "CASH", mode = EnumSource.Mode.MATCH_ANY)
-    public void test_F02_parameters_valid_02(PaymentType type){
+    public void test_F02_parameters_valid_02(PaymentType type) {
 
+        // setup
         List<Payment> l = new ArrayList<>();
-        l.add(new Payment(6,PaymentType.CASH,43.00));
-        l.add(new Payment(1,PaymentType.CARD,12.00));
-        l.add(new Payment(5,PaymentType.CASH,42.00));
-        l.add(new Payment(1,PaymentType.CARD,74.00));
+        l.add(new Payment(6, PaymentType.CASH, 43.00));
+        l.add(new Payment(1, PaymentType.CARD, 12.00));
+        l.add(new Payment(5, PaymentType.CASH, 42.00));
+        l.add(new Payment(1, PaymentType.CARD, 74.00));
 
-        try{
-            double total = waiterService.getTotalAmount(type,l);
+        try {
+            // act
+            double total = waiterService.getTotalAmount(type, l);
+            // assert
             assertTrue(total == 85.00);
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             fail();
         }
@@ -69,10 +75,14 @@ class WaiterServiceWBTest {
 
     @Test
     @DisplayName("WBT_invalid - paymentType is invalid")
-    public void test_F02_paymentType_invalid(){
+    public void test_F02_paymentType_invalid() {
 
+        // setup
         List<Payment> l = waiterService.getPayments();
-        assertThrows(ServiceException.class,()->waiterService.getTotalAmount(null,l));
+
+        // act
+        // assert
+        assertThrows(ServiceException.class, () -> waiterService.getTotalAmount(null, l));
 
     }
 
@@ -80,9 +90,14 @@ class WaiterServiceWBTest {
     @ParameterizedTest
     @EnumSource(value = PaymentType.class, names = "CARD", mode = EnumSource.Mode.MATCH_ANY)
     public void test_F02_paymentList_invalid_null(PaymentType type) {
-            List<Payment> l = new ArrayList<>();
+
+        // setup
+        List<Payment> l = new ArrayList<>();
+
         try {
+            // act
             double total = waiterService.getTotalAmount(type, l);
+            // assert
             assertTrue(total == 0);
         } catch (Exception e) {
             e.printStackTrace();
@@ -97,7 +112,9 @@ class WaiterServiceWBTest {
     public void test_F02_paymentList_invalid(PaymentType type) {
 
         try {
+            // act
             double total = waiterService.getTotalAmount(type, null);
+            //assert
             assertTrue(total == 0);
         } catch (Exception e) {
             e.printStackTrace();
@@ -105,7 +122,4 @@ class WaiterServiceWBTest {
         }
 
     }
-
-
-
 }

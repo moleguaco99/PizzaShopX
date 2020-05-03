@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryUnitTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceUnitTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/PizzaShopX.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/repository/PaymentRepositoryUnitTesting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceIntegrationTestingR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceIntegrationTestingRE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceUnitTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceWBTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,103 +33,37 @@
       <FILTER>pizzashop.service.WaiterService</FILTER>
     </SUITE>
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="236" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="PizzaShop" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceUnitTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingR.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/PaymentAlert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/WaiterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="50" column="108" selection-start-line="50" selection-start-column="108" selection-end-line="50" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#1744#1745#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-              </folding>
+              <caret line="43" column="32" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="81" column="49" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/ServiceException.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -134,10 +85,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pizzashop/service/ServiceException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzashop/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pizzashop/service/WaiterService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java" />
       </list>
     </option>
   </component>
@@ -149,9 +97,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="232" />
-    <option name="y" value="143" />
-    <option name="width" value="1144" />
+    <option name="x" value="581" />
+    <option name="y" value="75" />
+    <option name="width" value="1145" />
     <option name="height" value="725" />
   </component>
   <component name="ProjectId" id="1XnhPHuHkT7dDVekFl0PHbtY2Gs" />
@@ -164,7 +112,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,37 +122,26 @@
             <path>
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -213,34 +149,7 @@
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
@@ -249,7 +158,7 @@
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
@@ -258,60 +167,14 @@
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PizzaShopX" type="b2602c69:ProjectViewProjectNode" />
               <item name="PizzaShopX" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="pizzashop" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -319,6 +182,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -331,10 +195,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588509145455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588515280583" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="F:/Chestii Iulia/Materiale facultate/Sem5/arhiva/Anul3/An3/An3Sem2_Iuliana/VVSS/mar/04-ProiectNoteElevi/ProiectNoteElevi" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/pizzashop/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Docs/lab1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -345,6 +210,7 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pizzashop.service" />
+      <recent name="pizzashop.repository" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pizzashop.repository" />
@@ -371,34 +237,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WaiterServiceWBTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pizzashop.Main" />
-      <module name="PizzaShop" />
+  <component name="RunManager" selected="JUnit.WaiterServiceIntegrationTestingRE">
+    <configuration name="PaymentRepositoryUnitTesting.test_addPayment_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShopX" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pizzashop.*" />
+          <option name="PATTERN" value="pizzashop.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pizzashop.repository" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.repository.PaymentRepositoryUnitTesting" />
+      <option name="METHOD_NAME" value="test_addPayment_invalid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaiterServiceWBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaiterServiceIntegrationTestingRE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaShop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pizzashop.service.*" />
-          <option name="ENABLED" value="false" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="pizzashop.service.WaiterService" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceWBTest" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceIntegrationTestingRE" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -406,8 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaiterServiceWBTest.test_F02_parameters_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaShop" />
+    <configuration name="WaiterServiceIntegrationTestingR.test_addPayment_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShopX" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pizzashop.service.*" />
@@ -415,15 +282,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceWBTest" />
-      <option name="METHOD_NAME" value="test_F02_parameters_valid(pizzashop.model.PaymentType)" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceIntegrationTestingR" />
+      <option name="METHOD_NAME" value="test_addPayment_invalid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaiterServiceWBTest.test_F02_paymentList_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaShop" />
+    <configuration name="WaiterServiceIntegrationTestingR.test_addPayment_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShopX" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pizzashop.service.*" />
@@ -431,15 +298,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceWBTest" />
-      <option name="METHOD_NAME" value="test_F02_paymentList_invalid(pizzashop.model.PaymentType)" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceIntegrationTestingR" />
+      <option name="METHOD_NAME" value="test_addPayment_valid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaiterServiceWBTest.test_F02_paymentType_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaShop" />
+    <configuration name="WaiterServiceUnitTesting.test_addPayment_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaShopX" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pizzashop.service.*" />
@@ -447,8 +314,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pizzashop.service" />
-      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceWBTest" />
-      <option name="METHOD_NAME" value="test_F02_paymentType_invalid" />
+      <option name="MAIN_CLASS_NAME" value="pizzashop.service.WaiterServiceUnitTesting" />
+      <option name="METHOD_NAME" value="test_addPayment_invalid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -481,20 +348,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.WaiterServiceWBTest" />
-      <item itemvalue="JUnit.WaiterServiceWBTest.test_F02_parameters_valid" />
-      <item itemvalue="JUnit.WaiterServiceWBTest.test_F02_paymentList_invalid" />
-      <item itemvalue="JUnit.WaiterServiceWBTest.test_F02_paymentType_invalid" />
+      <item itemvalue="JUnit.PaymentRepositoryUnitTesting.test_addPayment_invalid" />
+      <item itemvalue="JUnit.WaiterServiceUnitTesting.test_addPayment_invalid" />
+      <item itemvalue="JUnit.WaiterServiceIntegrationTestingR.test_addPayment_valid" />
+      <item itemvalue="JUnit.WaiterServiceIntegrationTestingR.test_addPayment_invalid" />
+      <item itemvalue="JUnit.WaiterServiceIntegrationTestingRE" />
       <item itemvalue="Maven.PizzaShop [exec:java]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WaiterServiceWBTest" />
-        <item itemvalue="JUnit.WaiterServiceWBTest.test_F02_paymentList_invalid" />
-        <item itemvalue="JUnit.WaiterServiceWBTest.test_F02_paymentType_invalid" />
-        <item itemvalue="JUnit.WaiterServiceWBTest.test_F02_parameters_valid" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WaiterServiceIntegrationTestingRE" />
+        <item itemvalue="JUnit.WaiterServiceIntegrationTestingR.test_addPayment_invalid" />
+        <item itemvalue="JUnit.WaiterServiceIntegrationTestingR.test_addPayment_valid" />
+        <item itemvalue="JUnit.PaymentRepositoryUnitTesting.test_addPayment_invalid" />
+        <item itemvalue="JUnit.WaiterServiceUnitTesting.test_addPayment_invalid" />
       </list>
     </recent_temporary>
   </component>
@@ -540,49 +407,23 @@
       <workItem from="1586077151190" duration="4450000" />
       <workItem from="1586680185103" duration="693000" />
       <workItem from="1586888484026" duration="282000" />
-      <workItem from="1586925554146" duration="3784000" />
-      <workItem from="1588171123117" duration="1238000" />
-      <workItem from="1588423923817" duration="1662000" />
-      <workItem from="1588427096071" duration="1808000" />
-      <workItem from="1588505912743" duration="1307000" />
-      <workItem from="1588514188124" duration="66000" />
+      <workItem from="1586925554146" duration="1307000" />
+      <workItem from="1586929409080" duration="2166000" />
+      <workItem from="1588424664088" duration="4066000" />
+      <workItem from="1588428798908" duration="330000" />
+      <workItem from="1588493296957" duration="1888000" />
+      <workItem from="1588510418467" duration="1177000" />
+      <workItem from="1588514394099" duration="874000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaiterServiceWBTest_test_F02_paymentType_invalid - 2020.04.05 at 13h 02m 55s.xml">
-      <configuration name="WaiterServiceWBTest.test_F02_paymentType_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest_test_F02_paymentList_invalid - 2020.04.05 at 13h 05m 23s.xml">
-      <configuration name="WaiterServiceWBTest.test_F02_paymentList_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest_test_F02_paymentList_invalid - 2020.04.05 at 13h 06m 26s.xml">
-      <configuration name="WaiterServiceWBTest.test_F02_paymentList_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.05 at 13h 06m 48s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.05 at 13h 13m 47s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.14 at 21h 25m 34s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.14 at 21h 25m 47s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.15 at 07h 47m 35s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.15 at 07h 52m 04s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaiterServiceWBTest - 2020.04.15 at 07h 59m 24s.xml">
-      <configuration name="WaiterServiceWBTest" configurationId="JUnit" />
+    <history-entry file="WaiterServiceIntegrationTestingRE - 2020.05.03 at 17h 03m 09s.xml">
+      <configuration name="WaiterServiceIntegrationTestingRE" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19234000" />
+    <option name="totallyTimeSpent" value="874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,39 +435,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="115" width="915" height="580" extended-state="0" />
+    <frame x="465" y="60" width="916" height="580" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3625731" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43457943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19546743" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.51785713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.305949" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.19597316" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,6 +482,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="288" y="174" key="#Project_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1584438770125" />
+    <state x="563" y="188" key="#WaiterServiceWBTest" timestamp="1586929796009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="188" key="#WaiterServiceWBTest/0.0.1920.1040@0.0.1920.1040" timestamp="1586929796009" />
+    <state x="1170" y="281" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1588511203118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="281" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588511203118" />
     <state x="447" y="35" key="#com.intellij.ide.util.MemberChooser" timestamp="1581861630816">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -661,55 +510,59 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581865432079" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1585664723892">
+    <state width="1397" height="408" key="GridCell.Tab.0.bottom" timestamp="1588511598175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585664723892" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1585664723892">
+    <state width="1397" height="408" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588511598175" />
+    <state width="1397" height="408" key="GridCell.Tab.0.center" timestamp="1588511598175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585664723892" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1585664723892">
+    <state width="1397" height="408" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588511598175" />
+    <state width="1397" height="408" key="GridCell.Tab.0.left" timestamp="1588511598174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585664723892" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1585664723892">
+    <state width="1397" height="408" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588511598174" />
+    <state width="1397" height="408" key="GridCell.Tab.0.right" timestamp="1588511598175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581869350247" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585664723892" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583334986628">
+    <state width="1397" height="408" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588511598175" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588495193347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583334986628">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588495193347" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588495193347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583334986628">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588495193347" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588495193347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583334986628">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588495193347" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588495193347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583334986628" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588495193347" />
     <state x="68" y="167" key="SettingsEditor" timestamp="1584385173525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="68" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584385173525" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1585724125446">
+    <state x="445" y="217" key="chooseDestDirectoryDialog" timestamp="1588511175582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="445" y="217" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588511175582" />
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1588510418457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582489803750" />
-    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585724125446" />
-    <state x="400" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585493833324">
+    <state x="527" y="258" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588510418457" />
+    <state x="1411" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588511175588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="400" y="169" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585493833324" />
+    <state x="1411" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588511175588" />
     <state width="300" height="120" key="javadoc.popup.new" timestamp="1581868634597">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -723,138 +576,37 @@
     </state>
     <state x="38" y="291" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584385129366" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PizzaShopX$WaiterServiceWBTest.ic" NAME="WaiterServiceWBTest Coverage Results" MODIFIED="1586931742155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pizzashop.service.WaiterService</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/KitchenGUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/PaymentOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/KitchenGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/MainGUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/controller/OrdersGUIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/MenuRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/payments.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/model/MenuDataModel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryUnitTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/OrdersGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceUnitTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="73">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/gui/PaymentAlert.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="68">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/WaiterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="50" column="108" selection-start-line="50" selection-start-column="108" selection-end-line="50" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/service/ServiceException.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="81" column="49" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
