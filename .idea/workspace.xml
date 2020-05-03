@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b755e9-5e0c-4feb-8bf6-9a26b85ae76e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/repository/PaymentRepositoryUnitTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceUnitTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/PizzaShopX.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/repository/PaymentRepositoryUnitTesting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceIntegrationTestingR.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceIntegrationTestingRE.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceUnitTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzashop/repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/payments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pizzashop/service/WaiterServiceWBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/payments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/payments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pizzashop/repository/PaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceWBTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceIntegrationTestingRE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pizzashop/service/WaiterServiceIntegrationTestingRE.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +26,11 @@
     <favorites_list name="PizzaShop" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceUnitTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="629">
               <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
             </state>
           </provider>
@@ -53,17 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="578">
               <caret line="43" column="32" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="476">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -86,6 +81,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java" />
       </list>
     </option>
   </component>
@@ -96,9 +92,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="581" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="347" />
+    <option name="y" value="111" />
     <option name="width" value="1145" />
     <option name="height" value="725" />
   </component>
@@ -112,6 +108,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -195,7 +191,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588515280583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588516995602" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/pizzashop/service" />
@@ -413,7 +409,8 @@
       <workItem from="1588428798908" duration="330000" />
       <workItem from="1588493296957" duration="1888000" />
       <workItem from="1588510418467" duration="1177000" />
-      <workItem from="1588514394099" duration="874000" />
+      <workItem from="1588514394099" duration="1220000" />
+      <workItem from="1588516938518" duration="53000" />
     </task>
     <servers />
   </component>
@@ -421,9 +418,12 @@
     <history-entry file="WaiterServiceIntegrationTestingRE - 2020.05.03 at 17h 03m 09s.xml">
       <configuration name="WaiterServiceIntegrationTestingRE" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WaiterServiceIntegrationTestingRE - 2020.05.03 at 17h 16m 50s.xml">
+      <configuration name="WaiterServiceIntegrationTestingRE" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="874000" />
+    <option name="totallyTimeSpent" value="1273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,39 +435,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="465" y="60" width="916" height="580" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43457943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.51785713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,22 +591,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceUnitTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="629">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="578">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceIntegrationTestingRE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="476">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pizzashop/service/WaiterServiceBBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>

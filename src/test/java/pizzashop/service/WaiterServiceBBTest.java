@@ -9,7 +9,7 @@ import pizzashop.repository.PaymentRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WaiterServiceTest {
+public class WaiterServiceBBTest {
 
     private static WaiterService waiterService;
 
