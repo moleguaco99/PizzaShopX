@@ -50,8 +50,10 @@ public class PaymentRepository {
         return item;
     }
 
-    public void add(Payment payment){
-        paymentList.add(payment);
+    public void add(Payment payment) throws Exception{
+        if(payment.getType() == null)
+            throw new Exception("null type of payment");
+        paymentList.add(new Payment(payment.getTableNumber(), payment.getType(), payment.getAmount()));
         writeAll();
     }
 
